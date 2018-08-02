@@ -1,0 +1,24 @@
+{
+  "name": "tablequick",
+  "version": "0.0.1",
+  "description": "create new mysql table very quickly using brief yaml config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tablequick": "./bin/tablequick.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^2.16.0"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "glob": "^7.1.2",
+    "js-yaml": "^3.12.0",
+    "knex": "^0.15.2",
+    "mysql": "^2.16.0"
+  }
+}
